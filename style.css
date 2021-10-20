@@ -12,9 +12,16 @@ li {
     text-align: center;
 }
 
+.my-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .my-item {
     width: 200px;
     max-height: 150px;
     padding: 5px;
     margin-top: 10px;
 }
+
